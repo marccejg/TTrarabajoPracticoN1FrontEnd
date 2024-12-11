@@ -1,0 +1,136 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 35px;
+    background-color: rgba(51, 51, 51, 0.6);
+    background-image: url('../image/fondo.png');
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 60px;
+    align-items: right;
+    gap: 10ppx;
+
+
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.contendor {
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+
+
+
+
+
+    .imagen {
+        max-width: 90%;
+        height: auto;
+        width: auto;
+        border-radius: 8px;
+    }
+
+
+    .figcaption {
+        font-size: 1.1em;
+        margin: 10px 0;
+        font-weight: bold;
+        text-align: center;
+
+    }
+}
+
+.precio {
+    color: #555;
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.stock {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 25px;
+    max-width: 25px;
+    text-align: match-parent;
+    line-height: 15x;
+
+}
+
+
+.cantidad {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 150px;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.btn-compra {
+    background-color: #257fc4;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+.btn-finalizar {
+    background-color: rgb(235, 27, 27);
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: justify;
+    max-width: 300px
+}
+
+.totalText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: #070707;
+    border: 1px solid t#090909;
+    max-width: 300px;
+    margin-top: 20px;
+
+}
+
+.texto1 {
+
+    color: rgb(97, 99, 100);
+    font-size: 1.2em;
+    line-height: 1.6;
+
+    border: solid 1px black;
+}
