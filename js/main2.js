@@ -5,9 +5,9 @@ let total = 0;
 const productos = [
     { nombre: "Señuelo para dorado Silver", precio: 2000, stock: 5, image: "../image/señuelo1.png" },
     { nombre: "Señuelo para dorado Red", precio: 1500, stock: 5, image: "../image/señuelo2.png" },
-    { nombre: "Señuelo para dorado Red", precio: 1100, stock: 7, image: "../image/señuelo3.png" },
-    { nombre: "Señuelo para dorado Red", precio: 1100, stock: 7, image: "../image/señuelo4.png" },
-    { nombre: "Señuelo para dorado Red", precio: 1100, stock: 7, image: "../image/señuelo5.png" },
+    { nombre: "Señuelo para dorado Gree-Black", precio: 1100, stock: 7, image: "../image/señuelo3.png" },
+    { nombre: "Señuelo para dorado Blue", precio: 1100, stock: 7, image: "../image/señuelo4.png" },
+    { nombre: "Señuelo para dorado Picted", precio: 1100, stock: 7, image: "../image/señuelo5.png" },
 ];
 
 function pintarProductos(arrayProductos) {

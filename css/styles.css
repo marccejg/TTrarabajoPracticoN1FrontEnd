@@ -6,9 +6,7 @@
     background-color: rgba(51, 51, 51, 0.6);
     background-image: url('../image/fondo.png');
     background-size: cover;
-
     background-position: center;
-
     background-repeat: no-repeat;
     color: white;
     margin-bottom: 0px;
@@ -16,9 +14,7 @@
     margin-left: 5px;
     margin-right: 5px;
     height: 60px;
-    align-items: right;
     gap: 10ppx;
-
 
 }
 
@@ -31,45 +27,39 @@
 }
 
 .contendor {
-    background-color: rgb(245, 245, 245);
-    border: 1px solid rgb(245, 245, 245);
     border-radius: 8px;
     padding: 30px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease;
+
+}
+
+.imagen {
+    max-width: 90%;
+    height: auto;
+    width: auto;
+    border-radius: 8px;
+}
 
 
-
-
-
-    .imagen {
-        max-width: 90%;
-        height: auto;
-        width: auto;
-        border-radius: 8px;
-    }
-
-
-    .figcaption {
-        font-size: 1.1em;
-        margin: 10px 0;
-        font-weight: bold;
-        text-align: center;
-
-    }
+.figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(51, 51, 51);
 }
 
 .precio {
-    color: #555;
-    font-size: 1.1em;
-    margin: 5px 0;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
 }
 
 .stock {
     padding: 8px;
     margin: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(221, 221, 221);
     border-radius: 4px;
     width: 25px;
     max-width: 25px;
@@ -82,7 +72,7 @@
 .cantidad {
     padding: 8px;
     margin: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(221, 221, 221);
     border-radius: 4px;
     width: 100%;
     max-width: 150px;
@@ -93,7 +83,7 @@
 
 
 .btn-compra {
-    background-color: #257fc4;
+    background-color: rgb(37, 127, 196);
     color: white;
     padding: 10px;
     border: none;
@@ -104,14 +94,18 @@
 }
 
 .btn-finalizar {
+    display: flex;
     background-color: rgb(235, 27, 27);
     color: rgb(255, 255, 255);
-    padding: 30px;
+    padding: 28px;
     border: none;
-    border-radius: 4px;
+    border-radius: 0px 4px 4px 0px;
     cursor: pointer;
-    text-align: justify;
-    max-width: 300px
+    font-weight: bold;
+    max-width: 300px;
+    align-items: center;
+    font-size: 20px;
+
 }
 
 .totalText {
@@ -119,18 +113,40 @@
     justify-content: space-between;
     align-items: center;
     padding: 25px;
-    background-color: #070707;
-    border: 1px solid t#090909;
+    background-color: rgb(7, 7, 7);
+    border: 1px solid rgb(9, 9, 9);
     max-width: 300px;
     margin-top: 20px;
 
 }
 
-.texto1 {
 
+.presentacion {
+    margin-top: 30px;
+}
+
+.titulo {
+    display: flex;
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    gap: 10ppx;
+    margin-left: 22%;
+    margin-right: 20%;
+    font-weight: bold;
+}
+
+.texto1 {
+    display: flex;
+    margin-top: 5px;
     color: rgb(97, 99, 100);
     font-size: 1.2em;
     line-height: 1.6;
-
-    border: solid 1px black;
+    padding: 10px;
+    border: solid 15px rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5px 15px 15px 15px;
+    text-align: justify;
 }
